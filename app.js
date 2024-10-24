@@ -1,9 +1,10 @@
 
 const data = ['ali', 'axror', 'dilshod'];
-const darkbtn = document.getElementById('#dark');
+const darkbtn = document.getElementById('dark');
 
 darkbtn.addEventListener('click',()=>{
-    
+        console.log(data.toString());
+        
 })
 
 // const list = document.querySelector('ul');
