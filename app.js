@@ -1,15 +1,15 @@
 
-const darkbtn = document.getElementById('.dark');
-const body = document.querySelector('body');
-darkbtn.addEventListener('click', ()=>{
-    body.classList.add('dark')
+const data = ['ali', 'axror', 'dilshod'];
+const darkbtn = document.getElementById('#dark');
+
+darkbtn.addEventListener('click',()=>{
+    
 })
 
 // const list = document.querySelector('ul');
 
 // const title = document.querySelector('h2');
 
-// const data = ['ali', 'axror', 'dilshod'];
 
 // const result = data.find(name => name === 'axror');
 // console.log(result);  // "axror"
